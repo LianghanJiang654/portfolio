@@ -1,5 +1,5 @@
 import photo from "../assets/myphoto.jpg";
-import resume from "../assets/resume.pdf";
+
 
 function About() {
   return (
@@ -26,14 +26,14 @@ function About() {
         Java programming and database systems.
       </p >
 
-      <a
+  <a
   href="/resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="btn btn-success"
 >
   Download Resume
-    </a>
+</a>
 
     </div>
   );
